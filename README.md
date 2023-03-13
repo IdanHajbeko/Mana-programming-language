@@ -1,1 +1,2 @@
-# mana_programming_lengue
+# mana
+Mana is a simple programming language.
