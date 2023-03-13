@@ -1,0 +1,17 @@
+// This program calculates the area and circumference of a circle.
+
+// Input the radius of the circle.
+input radius, Enter the radius of the circle:
+
+// Calculate the area of the circle.
+pi = 3.14159265359
+radius_squared = {radius} * {radius}
+area = num[{pi} * {radius_squared}]
+write The area of the circle is:
+write {area}
+
+// Calculate the circumference of the circle.
+diameter = {radius} * 2
+circumference = num[{pi} * {diameter}]
+write The circumference of the circle is:
+write {circumference}
