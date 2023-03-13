@@ -1,0 +1,39 @@
+// test input function
+input name, Enter your name:
+write Hello {name}!
+input last_name, what is your last name:
+write Hello {name} {last_name}!
+
+// test variables
+
+// string
+name = idan
+write {name}
+
+// int / float
+x = 5
+z = 10.123
+write num[{x} + {z}]
+
+// duplicate variables
+b = 12
+b = 14
+write {b}
+
+// general variables testing
+x = {b}
+x = num[{x} + {b} + {z}]
+write {x}
+
+// math testing
+a = 1
+x = num[{a} - {a}]
+write {x}
+x = num[{a} * {a} + 1238 - {b}/{z}]
+write {x}
+
+// write function test
+write Hello world
+write welcome {name}!
+
+
